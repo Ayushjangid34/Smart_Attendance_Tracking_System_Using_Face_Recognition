@@ -1,0 +1,2 @@
+# Smart_Attendance_Tracking_System_Using_Face_Recognition
+The "Smart Attendance Tracking System" integrates cutting-edge technology and software to transform the way educational institutions monitor student attendance. The project uses Node.js for backend infrastructure. The use of face recognition technology is utilized in the project to recognize/verify a student's presence in classroom during a class.
