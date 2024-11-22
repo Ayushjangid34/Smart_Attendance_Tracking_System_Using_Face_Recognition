@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>register</title>
+  <link rel="stylesheet" href="../../css/register.css">
+</head>
+
+<body>
+  <div style="float: left; position: fixed; margin-left: 30px; margin-top: 430px;">
+    <div>
+      <a href="https://www.whatsapp.com/">
+        <img src="../../images/whats app.png" alt=":(" width="40px">
+      </a>
+    </div>
+    <div>
+      <a href="https://www.gmail.com/">
+        <img src="../../images/email.png" alt=":(" width="40px"></a>
+    </div>
+    <div>
+      <a href="https://www.gmail.com/">
+        <img src="../../images/phone.png" alt=":(" width="40px">
+      </a>
+    </div>
+    <div id="fb">
+      <a href="https://www.gmail.com/">
+        <img src="../../images/fb.png" alt=":(" width="40px">
+      </a>
+    </div>
+  </div>
+  <header>
+    <img src="../../images/SIS.png" alt="error" id="image">
+    <div style="float:right;" id="bar"><a href="/about" id="underline">
+        <h2 style="font-weight: 100; color: black" id="bottom">About US</h2>
+      </a></div>
+    <div style="float:right;" id="bar"><a href="/contact" id="underline">
+        <h2 style="font-weight: 100; color: black;" id="bottom">Contact US</h2>
+      </a></div>
+    <div style="float:right;" id="bar"><a href="/" id="underline">
+        <h2 style="font-weight: 100; color: black" id="bottom">Home Page</h2>
+      </a></div>
+  </header>
+  <div style="text-align: center;" id="">
+
+    <!--  <img src="images/SI.png" alt="error" width="400px" style="padding-top: 40px; border-radius: 100000px;"  >
+    -->
+    <div>
+      <br><br>
+      <div id="profile">
+        <h1 id="reg">Student Registration</h1>
+        <div id="info">
+          <form action="/admin/register-student" method="post">
+            <div id="college">
+              <p>Please select student's Branch and Section : </p>
+              <select name="Branch" id="BS">
+                <option value="1">Computer Science</option>
+                <option value="2">Information Technology</option>
+                <option value="3">Civil</option>
+                <option value="4">Electronics and Communication</option>
+                <option value="5">Machenical</option>
+              </select>
+
+              <select name="Section" id="BS">
+                <option value="1">A</option>
+                <option value="2">B</option>
+                <option value="3">C</option>
+                <option value="4">D</option>
+              </select>
+            </div>
+            <br>
+            <div id="college">
+              <label for="fname">Enter full name of student<span style="color:red;">*</span></label>
+              <br>
+              <input type="text" id="box" name="Student_Name" value="">
+            </div>
+            <br>
+            <div id="college">
+              <label for="lname">Official Email for registration<span style="color:red;">*</span></label>
+              <br>
+              <input type="email" id="box" name="Email" placeholder="example@poornima.org">
+            </div>
+            <br>
+            <div id="college">
+              <label for="lname">Password for the student<span style="color:red;">*</span></label>
+              <br>
+              <input type="text" id="box" name="password" placeholder="password@123">
+            </div>
+            <br>
+            <div id="college">
+              <label for="fname">Enter Phone number of student<span style="color:red;">*</span></label>
+              <br>
+              <input type="tel" id="box" name="phone" value="" maxlength="10">
+
+              <br>
+              <br>
+              <label for="fname">Enter Student's DOB <span style="color:red;">*</span></label>
+              <br>
+              <input type="date" id="box" name="DOB" value="">
+              <br><br>
+            </div>
+            <br>
+
+            <input type="submit" value="Add Student">
+
+            <input type="reset" value="Reset Form">
+          </form>
+          <div>
+            <br><br><br>
+          </div>
+
+
+</body>
+
+</html>
