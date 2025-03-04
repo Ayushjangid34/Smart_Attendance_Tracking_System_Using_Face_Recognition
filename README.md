@@ -155,4 +155,4 @@ Feel free to reach out to me through any of the following contact methods:
 
 - **Mobile**: [📞 +917568983187](tel:+917568983187)
 - **LinkedIn**: [https://www.linkedin.com/in/ayushjangid34](https://www.linkedin.com/in/ayushjangid34)
-- **Gmail**: [ayushjangid34@gmail.com](mailto:ayushjangid34@gmail.com)
+- **Gmail**: [ayushjangid34@gmail.com](mailto:contact.ayushjangid@gmail.com)
