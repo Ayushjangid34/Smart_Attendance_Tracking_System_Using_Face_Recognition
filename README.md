@@ -46,7 +46,7 @@ This project utilizes the **MVC** architecture, and the code is written in a str
 ## Project System Design
 
 <div align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D562CAQEdIVYpO6w0Nw/comment-image-shrink_8192_1280/comment-image-shrink_8192_1280/0/1716346730943?e=1732917600&v=beta&t=E6juwKygN9vSJsTuaGoyEbVUdvzYyJgyNBjheMVpSkQ" alt="Project System Design LinkedIn link">
+  <img src="https://raw.githubusercontent.com/Ayushjangid34/Smart_Attendance_Tracking_System_Using_Face_Recognition/main/SysDesign.jpg" alt="System design image link">
 </div>
 
 
