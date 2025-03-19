@@ -55,7 +55,7 @@ def recognize_faces(face_embeddings, labels):
             distances = np.linalg.norm(face_embeddings - embedding, axis=1)
             min_distance_idx = np.argmin(distances)
             min_distance = distances[min_distance_idx]
-            threshold = 0.5  # Adjust as needed
+            threshold = 0.4  # Adjust as needed
             #print(min_distance)
             if min_distance < threshold:
                 label = labels[min_distance_idx]

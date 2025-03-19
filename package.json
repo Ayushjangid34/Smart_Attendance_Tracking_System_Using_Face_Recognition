@@ -12,13 +12,13 @@
   "license": "ISC",
   "description": "This is my Final Year Project that aims to automate the attendance tracking using face recognition.",
   "dependencies": {
-    "body-parser": "1.20.3",
-    "cookie-parser": "1.4.7",
-    "crypto-js": "4.2.0",
-    "dotenv": "16.4.5",
-    "exceljs": "4.4.0",
-    "express": "4.21.1",
-    "multer": "1.4.5-lts.1",
-    "mysql2": "3.11.4"
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.13.0"
   }
 }

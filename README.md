@@ -70,10 +70,11 @@ This project utilizes the **MVC** architecture, and the code is written in a str
 
 Make sure you have the following installed on your system:
 
-- **Node.js** (v18.20.4)
-- **npm** (10.7.0)
+- **Node.js** (v22.14.0)
+- **npm** (10.9.2)
 - **MySQL** (8.4.3)
-- **Python** (3.x)
+- **Python** (3.10.12)
+- **pip** (22.0.2)
 
 ### Steps
 
@@ -128,6 +129,8 @@ Make sure you have the following installed on your system:
    pip install -r pyRequirements.txt
    ```
 
+    > **NOTE:** dlib requires CMake, build-essential, and libboost-all-dev for installation. Make sure to install these dependencies before running the Python requirements         command provided above. Additionally, installing dlib can take some time, so please be patient!
+
 6. **Start the Server:** To run the server, execute:
 
    ```bash
@@ -139,6 +142,13 @@ Make sure you have the following installed on your system:
    ```bash
    node attendanceServer.js
    ```
+
+
+
+**Now,** the project is running on [http://localhost:3000/](http://localhost:3000/). Use the following admin credentials to access the project:  
+- **Email:** `ayush.admin@poornima.org`  
+- **Password:** `123`
+  
 
 ## Additional Points to Keep in Mind
 - This project doesn't store passwords in hashed format because the admin inserted during database creation is the only administrator who can log in. That's why, for simplicity, we are using plain text instead of hashed passwords.
